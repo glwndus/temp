@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#stage {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/bg.jpg);
+    overflow: hidden;
+}
+
+#hero,
+#mybullet,
+.enemy,
+.ebullet{
+    position: absolute;
+}
+
+
+#info {
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+}
